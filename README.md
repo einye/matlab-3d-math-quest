@@ -7,7 +7,7 @@ A 3D educational math game built entirely in **MATLAB**. You control a red spher
 ## Requirements
 
 - **MATLAB** (R2019b or newer recommended for the `audioplayer` object and texture mapping)
-- No toolboxes required — uses base MATLAB graphics and audio.
+- No toolboxes required - uses base MATLAB graphics and audio.
 
 ## Required Assets
 
@@ -51,7 +51,8 @@ You must place the following files in the **same directory** as `ball_game.m`:
 | Up / Down Arrow      | Move along the Y-axis (or X-axis if touching the back wall)             |
 | Page Up / Page Down  | Move along the Z-axis (or Y-axis if touching the bottom wall)           |
 | R                    | Reset the ball to the center (0, 0, 0)                                  |
-(Note: In MATLAB, the Z-axis points up by default, so "Page Up" moves the ball toward the screen/top).
+
+- (Note: In MATLAB, the Z-axis points up by default, so "Page Up" moves the ball toward the screen/top).
 
 ## Known Issues
 - The bgPlayer.TimerFcn is used to loop the background music. If the game closes abruptly, the audio might continue playing in the MATLAB workspace. Use stop(bgPlayer) to kill it.
